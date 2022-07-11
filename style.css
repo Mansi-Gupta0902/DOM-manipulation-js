@@ -1,0 +1,56 @@
+.app{
+    background-color: rgb(37, 37, 37);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    margin: 10px auto;
+    height: 70vh;
+    color: white;
+    
+}
+#logo{
+    object-fit: contain;
+    width: 200px;
+    border-radius: 5px;
+    margin-bottom: 50px;
+
+}
+span{
+    border: 1px solid white;
+    width: 30%;
+}
+.quote{
+    font-family: 'Raleway', sans-serif;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.controls{
+    display: flex;
+    flex-direction: column;
+    margin: 10px auto;
+    /* width: 40%; */
+    
+}
+.controls input{
+    padding: 10px 5px;
+    margin-bottom: 10px;
+    width: 40%;
+    margin: 5px auto;
+}
+#btnBackground{
+    width: 20%;
+    margin: 2px auto;
+    font-size: 11px;
+    padding: 5px;
+}
+.buttons{
+    display: flex;
+    margin: 0 auto;
+    
+}
+#nature, #festival,#literature{
+    margin-right: 5px;
+    margin-top: 10px;
+}
